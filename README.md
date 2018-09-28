@@ -16,7 +16,7 @@ h refers to height of lines.
 In this case, color mode refers the hue, saturation, and brightness of grass.
 
 5. What does the -10 do in the second and fourth arguments of the line function, height-10-random(h)? Why is it there?
-According to P5.js’ Reference, The syntax of line is line(x1,y1,x2,y2). Therefore, in line(x, height-10, x + random(-10, 10), height-10-random(h));, the -10 just create slope of these line to make them looks like grass.
+changing the number of -10 will make the growing grass becoming higher up.
 
 
 
